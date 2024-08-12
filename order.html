@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-color: bisque;
+            color: bisque;
+        }
+        .body{
+            height: 95vh;
+            width: 90%;
+            margin-left: 0px;
+            background-color: black;
+          margin-right:15px;
+          
+          margin-bottom: 8px;
+          border-radius: 5px;
+          
+        }
+        nav ul li{
+            display: flex;
+            float: right;
+            padding-top: 0px;
+            padding-left: 80px;
+            margin-right:10px;
+            
+           
+            
+        }
+        a{
+            text-decoration: overline;
+            color: bisque;
+        }
+        a:hover{
+            color: black;
+            background-color: bisque;
+        }
+        a:active{
+            color: bisque;
+        }
+        button{
+            background-color: bisque;
+           
+            color: black;
+            border-radius: 15px;
+            border-color: beige;
+        }
+        span{
+            font-size: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bolder;
+            float: left;
+            
+            margin-left: 70px;
+            color: bisque;
+          
+            
+        }
+        .nav{
+            display: flex;
+            padding-bottom: 0px;
+            margin: 0px;
+            height: 20px;
+            justify-content: space-between;
+            position: sticky;
+        
+        }
+        nav ul{
+    
+        margin-left: auto;
+        }
+    .main{
+            margin-top: 100px;
+            margin-left: 70px;
+            display: flex;
+        }
+        p{
+            padding-top: 0px;
+        }
+        .content{
+            width: 45%;
+        }
+        .image{
+            width: 40%;
+            padding-left: 60px;
+        }
+        @keyframes bounceRotateGlow {
+            0%, 100% {
+                transform: scale(1) rotate(0deg) translateY(0);
+               
+            }
+            25% {
+                transform: scale(1.1) rotate(20deg) translateY(-20px);
+                
+            }
+            50% {
+                transform: scale(1.2) rotate(45deg) translateY(-40px);
+               
+            }
+            75% {
+                transform: scale(1.1) rotate(20deg) translateY(-20px);
+                 
+            }
+        }
+
+        img {
+            animation: bounceRotateGlow 4s  ease-in-out;
+            width: 300px; /* Adjust the size as needed */
+            border-radius: 50%; /* Make it circular */
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="nav">
+        
+            <span>eden's</span>
+            <nav>
+                <ul>
+                    <li>
+                    <button onclick="document.location='order.html'">ORDER NOW</button>
+                        
+                    <li>
+                        <a href="contactus.html">CONTACT US</a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="index.html">HOMEPAGE</a>
+                    </li>
+    
+        </ul>
+    </nav>
+           </div>
+           <div class="main">
+           <div class="content">
+            
+            <h1>Delicious food delivered <br> at your doorstep</h1>
+            <p>Place an order now</p>
+            <form action="">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="phone">Tel No.</label><br>
+                <input type="text" id="phone" name="phone"><br><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="address">Address</label><br>
+                <textarea name="address" id="address"></textarea><br><br>
+                <input type="submit" style="border-radius: 20px; background-color: beige; color: black; padding:10px; padding-left: 25px; padding-right: 25px;">
+            </form>
+           </div>
+           <div class="image">
+            <img src="pizza.gif" alt="burger" height="380vh" width="360vh" style="border-radius: 25px;">
+
+           </div>
+           </div>
+    </div>
+</body>
+</html>

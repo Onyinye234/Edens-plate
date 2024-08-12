@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/b08ba1e561.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%; 
+            margin: 0;
+            padding: 0;
+            background-color: black;
+
+        }
+        .body{
+            height: 100%;
+            width:100%;
+            background-color: black;
+            color: goldenrod;
+            
+        }
+        nav ul li{
+            display: flex;
+            float: right;
+            padding-top: 0px;
+            padding-left: 80px;
+            margin-right:10px;
+            
+           
+            
+        }
+        a{
+            text-decoration: overline;
+            color: goldenrod;
+        }
+        a:hover{
+            color: black;
+            background-color: goldenrod;
+        }
+        a:active{
+            color: goldenrod;
+        }
+        button{
+            background-color: goldenrod;
+           border-color: goldenrod;
+            color: black;
+            border-radius: 35px;
+            padding-left: 5px;
+            margin-bottom: 900px;
+            padding-top: 0px;
+        }
+        span{
+            font-size: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bolder;
+            float: left;
+            margin-left:-260px;
+            color: goldenrod;
+            
+           
+          
+            
+        }
+        .nav{
+            display: flex;
+            padding-bottom: 0px;
+            margin: 0px;
+            height: 20px;
+            justify-content: space-between;
+            position: sticky;
+        
+        }
+        nav ul{
+    
+        margin-left: auto;
+        }
+        .header{
+            font-family:'Playfair Display';
+           
+            text-align: center;
+           height: 120px;
+          
+            background-color: bisque;
+          
+        }
+        footer{
+            text-align: center;
+            padding-top: 10px;
+          
+        }
+        header{
+            font-size: 30px;
+            height: 80px;
+            animation: slideIn 3s ease-out forwards;
+
+            
+        }
+        p
+        {
+            padding-top: 0px;
+            margin-top: 0px;
+        }
+        nav ul li:last-child{
+         margin-right: 0px;
+        }
+        @keyframes slideIn {
+            from {
+                transform: translateX(-100%); /* Start from off-screen to the left */
+                opacity: 0; /* Make it invisible at the start */
+            }
+            to {
+                transform: translateX(0); /* End at the normal position */
+                opacity: 1; /* Fully visible at the end */
+            }
+        }
+        .fa-utensils{
+                font-size: 30px;
+                margin-left: 20px;
+                margin-top:15px ;
+                color: goldenrod;
+                /* Base styles (mobile-first) */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+/* Tablet styles */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+  }
+}
+            }
+       
+</style>
+        
+<body>
+    <div class="body">
+  
+    <div class="nav">
+        <i class="fas fa-utensils"></i>
+        <span>eden's</span>
+        <nav>
+            <ul>
+                <li>
+                    <button onclick="document.location='order.html'">ORDER NOW</button>
+               
+                </li>
+                <li>
+                    <a href="contactus.html">CONTACT US</a>
+                </li>
+                <li>
+                    <a href="aboutus.html">ABOUT US</a>
+                </li>
+                <li>
+                    <a href="index.html">HOMEPAGE</a>
+                </li>
+
+    </ul>
+</nav>
+       </div>
+       <div class="main" style="background-image: url('burger.gif'); background-repeat: no-repeat;background-size: auto;background-position: center; height: 80%;">
+    <div class="header">
+   <header><h1>eden's plate</h1></header> 
+   <p style="text-align: center;">Deliciousness in every bite.........</p>
+    </div>
+  
+   
+  
+   
+  
+   
+   </div>
+   <footer><p>&copy 2024 Eden's Plate. All right reserved</p></footer>
+</div>
+</body>
+</html>
